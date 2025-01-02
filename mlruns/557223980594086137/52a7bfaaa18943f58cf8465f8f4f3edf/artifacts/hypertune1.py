@@ -5,11 +5,6 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import mlflow
 
-import dagshub
-dagshub.init(repo_owner='Arihant987', repo_name='ML_Flow', mlflow=True)
-
-mlflow.set_tracking_uri("https://dagshub.com/Arihant987/ML_Flow.mlflow")
-
 data=load_breast_cancer()
 x=pd.DataFrame(data.data,columns=data.feature_names)
 y=pd.Series(data.target,name='target')
@@ -37,14 +32,8 @@ print(f"Best score: {best_score}")
 # With mlflow
 mlflow.set_experiment("exp-cancer")
 
-with mlflow.start_run() as parent:
+with mlflow.start_run():
     grid_search.fit(x_train,y_train)
-
-    for child in range(len(grid_search.cv_results_['params'])):
-
-        with mlflow.start_run(nested=True) as child_run:
-            mlflow.log_params(grid_search.cv_results_['params'][child])
-            mlflow.log_metric("accuracy",grid_search.cv_results_['mean_test_score'][child])
 
     best_params=grid_search.best_params_
     best_score=grid_search.best_score_
@@ -67,7 +56,7 @@ with mlflow.start_run() as parent:
     mlflow.log_input(test_df,"test_data")
 
     mlflow.log_artifact(__file__)
-    mlflow.sklearn.log_model(grid_search.best_estimator_,"Random_Forest")
+    mlflow.sklearn.log_model(grid_search.best_estimator,"Random_Forest")
 
     mlflow.set_tags({'Author':'KekLmao','Project':"Breast Cancer Classification"})
     print(f"Best params: {best_params}")

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Hp/Documents/ML_Ops/ML_Flow/mlruns/557223980594086137/52a7bfaaa18943f58cf8465f8f4f3edf/artifacts
+end_time: 1735802781891
+entry_point_name: ''
+experiment_id: '557223980594086137'
+lifecycle_stage: active
+run_id: 52a7bfaaa18943f58cf8465f8f4f3edf
+run_name: painted-mouse-71
+run_uuid: 52a7bfaaa18943f58cf8465f8f4f3edf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735802776804
+status: 4
+tags: []
+user_id: Hp
