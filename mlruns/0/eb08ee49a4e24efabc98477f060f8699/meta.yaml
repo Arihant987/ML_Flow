@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/eb08ee49a4e24efabc98477f060f8699/artifacts
+end_time: 1735667907174
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb08ee49a4e24efabc98477f060f8699
+run_name: blushing-horse-281
+run_uuid: eb08ee49a4e24efabc98477f060f8699
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735667907123
+status: 3
+tags: []
+user_id: Hp

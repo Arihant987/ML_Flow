@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6c812543e4e840ddaf577ad206ef0cc3/artifacts
+end_time: 1735669100496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c812543e4e840ddaf577ad206ef0cc3
+run_name: debonair-carp-662
+run_uuid: 6c812543e4e840ddaf577ad206ef0cc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735669098117
+status: 3
+tags: []
+user_id: Hp

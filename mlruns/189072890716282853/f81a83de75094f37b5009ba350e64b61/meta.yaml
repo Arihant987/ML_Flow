@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/189072890716282853/f81a83de75094f37b5009ba350e64b61/artifacts
+end_time: 1735798060376
+entry_point_name: ''
+experiment_id: '189072890716282853'
+lifecycle_stage: active
+run_id: f81a83de75094f37b5009ba350e64b61
+run_name: adaptable-mare-667
+run_uuid: f81a83de75094f37b5009ba350e64b61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735798058681
+status: 4
+tags: []
+user_id: Hp

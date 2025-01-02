@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/49a0a6f8cf1a4761b82d4800a759f6f9/artifacts
+end_time: 1735667755840
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 49a0a6f8cf1a4761b82d4800a759f6f9
+run_name: delicate-bug-277
+run_uuid: 49a0a6f8cf1a4761b82d4800a759f6f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735667755755
+status: 3
+tags: []
+user_id: Hp

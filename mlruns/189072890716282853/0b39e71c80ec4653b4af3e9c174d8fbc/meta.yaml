@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/189072890716282853/0b39e71c80ec4653b4af3e9c174d8fbc/artifacts
+end_time: 1735798101559
+entry_point_name: ''
+experiment_id: '189072890716282853'
+lifecycle_stage: active
+run_id: 0b39e71c80ec4653b4af3e9c174d8fbc
+run_name: bittersweet-bear-198
+run_uuid: 0b39e71c80ec4653b4af3e9c174d8fbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735798084200
+status: 3
+tags: []
+user_id: Hp
